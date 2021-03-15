@@ -1,12 +1,11 @@
-form {
-    border: 1px solid #545454;
+.outline {
+    border: 1.5px solid #720d6d;
     border-radius: 3px;
-    padding: 40px;
+    padding: 15px;
 }
 
 input {
-    padding: 5px 20px;
-    width: 100%;
-    line-height: 16px;
-    margin: 10px 0;
+    width: 95%;
+    line-height: 20px;
+    margin: 10px 5px;
 }

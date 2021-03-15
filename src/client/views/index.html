@@ -14,29 +14,34 @@
 
         <header>
             <div class="">
-                Logo
+                Project 1: Article NLP Analysis
             </div>
-            <div class="">
-                navigation
-            </div>
+
         </header>
 
         <main>
-            <section>
+            <section class="outline">
                 <form class="" onsubmit="return Client.handleSubmit(event)">
-                    <input id="name" type="text" name="input" value="" onblur="onBlur()" placeholder="Name">
+                    <input id="art_url" type="text" name="input" value="" placeholder="Article URL">
                     <input type="submit" name="" value="submit" onclick="return Client.handleSubmit(event)" onsubmit="return Client.handleSubmit(event)">
                 </form>
-            <section>
+            </section>
 
-            <section>
+            <section class="outline">
                 <strong>Form Results:</strong>
-                <div id="results"></div>
+                <div>
+                    <span>Most Significant Label:</span> <span id="label"></span>
+                </div>
+                <div>
+                    <span>Significance:</span> <span id="significance"></span>
+
+                </div>
+
             </section>
         </main>
 
         <footer>
-            <p>This is a footer</p>
+            <p>Amir Elkess</p>
         </footer>
 
     </body>
